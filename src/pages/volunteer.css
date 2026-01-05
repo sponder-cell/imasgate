@@ -1,0 +1,99 @@
+.involve-grid{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 10px;
+    padding: 30px;
+    background-color: #F5F5F5;
+}
+.hero-p{
+    font-size: 1.3rem;
+    width: 50%;
+    margin: 10px auto;
+}
+.form{
+    margin: 20px;
+    background-color: #FF7F50;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.form h4{
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border:solid 1px white;
+    margin-top: 5px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(14px);
+    
+}
+textarea{
+    width:100%;
+    border-radius: 10px;
+    border:solid 1px white;
+
+        margin-top: 5px;
+            background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(14px);
+
+
+
+}
+
+@media screen and (max-width:924px) {
+    .hero-p{
+    font-size: 1.1rem;
+    width: 100%;
+    line-height: 1.5;
+}
+
+.involve-grid{
+    display: block;
+    padding: 10px;
+}
+.form{
+    margin: 40px auto;
+    background-color: #FF7F50;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    width:100%;
+}
+
+.form h4{
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border:solid 1px white;
+    margin-top: 5px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(14px);
+    
+}
+textarea{
+    width:100%;
+    border-radius: 10px;
+
+        margin-top: 5px;
+            background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(14px);
+
+
+
+}
+
+
+
+    
+}

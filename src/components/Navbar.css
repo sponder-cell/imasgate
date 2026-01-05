@@ -1,0 +1,158 @@
+
+.logo {
+ width:70px;
+ line-height: 80px;
+ margin-left: 20px;
+}
+
+.navbar{
+  background-color: white;
+  position: fixed;
+  width:100%;
+  z-index: 1000;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.17);
+}
+.nav-links{
+    float: right;
+    margin-right:  200px;
+}
+.nav-links li{
+    display: inline-block;
+    line-height: 80px;
+    padding: 0 20px;
+}
+nav ul li a{
+    color: black;
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin: 0 40px;
+}
+
+nav ul li a:hover{
+    color: #FF7F50;
+}
+.dropdown-menu li{
+    display: block;
+    line-height: 50px;
+    padding: 0 ;
+    border-bottom: solid thin black;
+    width:100%;
+    font-size: 1.1rem;
+
+
+}
+.dropdown {
+  position: relative; /* THIS IS REQUIRED */
+}
+.dropdown-btn{
+    background: none;
+    border: none;
+    font-size: 1.1rem;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 70px;
+    background-color:#FFD166;
+    width:100%;
+    z-index: 100;
+}
+
+.donate {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #FF6B00; /* orange */
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.donate:hover {
+  background-color: #FFD166; /* hover gold */
+  color: #333;
+  transform: translateY(-2px);
+}
+
+.arrow-div {
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.donate:hover .arrow-div {
+  transform: translateX(5px); /* arrow slides on hover */
+}
+
+.arrow {
+  font-size: 1.1rem;
+}
+.menu{
+    font-size: 50px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+
+@media screen and (max-width:924px) {
+ .menu {
+    display: block;
+  }
+  .donate{
+    right: 70px;
+      top: 20px;
+
+  }
+  .nav-links{
+        position: fixed;
+        text-align: left;
+        width:100%;
+        background-color:#F5F5F5;
+        transform: translatey(-1000px);
+                transition: all 0.3s ease-in-out;
+                float: initial;
+    margin-right:  0px;
+    z-index: 1000;
+
+
+
+    }
+
+  
+  .nav-links li{
+        display: block;
+        border-bottom: solid 1px black;
+        width:100%;
+        line-height: 60px;
+        margin: initial;
+  
+  }
+
+   .nav-links li a{
+    margin: initial;
+
+   }
+   .dropdown-menu {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+ .nav-links.responsive{
+     transform: translateY(0);
+ }
+  
+}
+  

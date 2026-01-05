@@ -1,0 +1,117 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.care-img{
+    width:100%;
+}
+#programs{
+    text-align: center;
+    padding: 30px;
+}
+.program{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.education{
+    background-color: #F5F5F5;
+
+}
+.program-intro{
+    text-align: left;
+
+}
+.program-intro p{
+    line-height: 1.5;
+}
+.program-intro h3{
+    font-size: 2rem;
+    font-family: "inter";
+    margin-bottom: 20px;
+}
+
+.program-intro h4{
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.care-img img{
+    width:450px;
+        border-radius: 10px;
+
+}
+@media screen and (max-width:924px) {
+#programs{
+    padding: 15px;
+}
+.program{
+    display: block;
+    text-align: left;
+    margin: 15px;
+}
+.education.program {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 4rem 0;
+}
+
+.education-intro {
+  flex: 1;
+}
+
+.education-img {
+  flex: 1;
+}
+.care-img img{
+        max-width: 100%;
+
+}
+.care-img{
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* Mobile layout */
+
+  .education.program {
+    flex-direction: column; /* Stack vertically */
+  }
+
+  .education-img {
+    order: -1;              /* Make image appear above text */
+    margin-bottom: 1.5rem;  /* Space between image and text */
+  }
+  .education{
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .education-intro {
+    max-width: 100%;
+  }
+
+  .education-img img {
+    max-width: 100%;
+  }
+  .program-intro{
+    max-width: 100%;
+  }
+  .program-intro h3{
+    font-size: 1.7rem;
+    font-family: "inter";
+    margin-bottom: 20px;
+}
+
+  .advocacy-intro{
+    max-width: 100%;
+  }
+
+}
+
+
+    

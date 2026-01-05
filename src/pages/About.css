@@ -1,0 +1,96 @@
+#hero{
+    padding: 200px 20px;
+    background-image: url("https://images.unsplash.com/photo-1597807171365-adf4371436e0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGhvdG9zJTIwb2YlMjBidW5jaCUyMG9mJTIwYWZyaWNhJTIwY2hpbGRyZW4lMjB3aXRoJTIwZGlzYWJsaXRpZXN8ZW58MHx8MHx8fDA%3D");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+}
+#hero h1{
+    font-size: 3.5rem;
+    font-family: "inter";
+
+}
+.about-grid{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+}
+.about-text h3{
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+#about-info{
+    text-align: center;
+
+}
+.statement{
+   /* background: rgba(255, 255, 255, 0.15); */
+
+   background-color: #FF7F50;
+   color: white;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 20px;
+  padding: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  text-align: left;
+}
+
+.statement h4{
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+.mission-vision{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+    padding: 30px;
+}
+@media screen and (max-width:924px) {
+    #hero h1{
+    font-size: 3rem;
+    font-family: "inter";
+
+}
+#about-info{
+    text-align: left;
+
+}
+.about-grid{
+    display: block;
+        padding: 20px;
+
+
+}
+.about-text{
+    margin-top: 20px;
+    text-align: left;
+}
+.about-text h3{
+    font-size: 2rem;
+
+}
+.mission-vision{
+    display: block;
+    padding: 20px;
+}
+.statement{
+   /* background: rgba(255, 255, 255, 0.15); */
+
+   background-color: #FF7F50;
+   color: white;
+  padding: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  margin: 15px 0;
+  max-width:100%;
+}
+
+    
+}
