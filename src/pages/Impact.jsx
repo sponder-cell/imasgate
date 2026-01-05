@@ -22,7 +22,8 @@ function Impact() {
         </p>
 
         <button className='return'>
-          <Link to="/">          <span className="arrow-div">
+          <Link to="./">         
+           <span className="arrow-div">
             <FaArrowLeft className='arrow' />
           </span>
 
