@@ -22,11 +22,12 @@ function Impact() {
         </p>
 
         <button className='return'>
-          <span className="arrow-div">
+          <Link to="/">          <span className="arrow-div">
             <FaArrowLeft className='arrow' />
           </span>
 
           Return to Home
+</Link>
           </button>
       </div>
     </section>
