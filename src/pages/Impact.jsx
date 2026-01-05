@@ -20,16 +20,17 @@ function Impact() {
         <p>Our team is currently compiling detailed case studies, timelines, and success stories from our ongoing initiatives across Nigeria. This page will be updated shortly with comprehensive project data.
 
         </p>
+          <Link to="/">         
 
         <button className='return'>
-          <Link to="./">         
            <span className="arrow-div">
             <FaArrowLeft className='arrow' />
           </span>
 
           Return to Home
-</Link>
           </button>
+          </Link>
+
       </div>
     </section>
     
