@@ -29,8 +29,8 @@ function Home() {
       </div>
 
       <div className="home-btn">
-        <button className='volunteers'>Get Involved</button>
-        <button className='partner'>Partner with us</button>
+        <button className='volunteers'><Link to="./Volunteer">Get Involved</Link></button>
+        <button className='partner'><Link to="./Volunteer">Partner with us</Link></button>
 
       </div>
     </section>
@@ -51,7 +51,7 @@ function Home() {
             <h4>Care & Support</h4>
             <p>Providing urgent welfare, mobility aids, and daily care to restore dignity and hope.</p>
             <div className="priority-link">
-            <Link className="read-more">Read More<span className="arrow-div">
+            <Link to="./Programs" className="read-more">Read More<span className="arrow-div">
         <FaArrowRight className="arrow" />
       </span>
  </Link>
@@ -70,7 +70,7 @@ function Home() {
             <p>Providing urgent welfare, mobility aids, and daily care to restore dignity and hope.</p>
 
             <div className="priority-link">
-            <Link  className="read-more">Read More    
+            <Link to="./Programs"  className="read-more">Read More    
                <span className="arrow-div">
         <FaArrowRight className="arrow" />
       </span>
@@ -89,7 +89,7 @@ function Home() {
             <p>Providing urgent welfare, mobility aids, and daily care to restore dignity and hope.</p>
 
             <div className="priority-link">
-                        <Link  className="read-more">Read More   
+                        <Link to="./Programs"  className="read-more">Read More   
                             <span className="arrow-div">
         <FaArrowRight className="arrow" />
       </span>
@@ -302,7 +302,7 @@ function Home() {
       </div>
 
       <div className="involve-buttons">
-        <button className="volunteer">Become A Volunteer</button>
+        <button className="volunteer"> <Link to="./Volunteer">Become A Volunteer</Link></button>
 
       </div>
     </section>

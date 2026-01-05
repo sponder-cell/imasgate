@@ -63,12 +63,14 @@ function Volunteer() {
           </div>
           <div className="email">
           <label htmlFor="">Email-Address</label>
-          <input type="text" />
+          <input type="email" />
           </div>
 
           <label htmlFor="">Message</label>
 
           <textarea name="" id="" cols="30" rows="10"></textarea>
+
+          <button className='submit' type="submit">Submit</button>
 
           
         </form>
