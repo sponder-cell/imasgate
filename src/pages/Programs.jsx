@@ -15,7 +15,7 @@ function Programs() {
       <div className="care  program">
 
       <div className="care-img">
-        <img src="https://public.files.download.flockmail.com/10828339/2641426737927168_1" alt="" />
+        <img src="/images/gallery3.jpg" alt="" />
       </div>
 
       <div className="care-intro program-intro">
@@ -48,7 +48,7 @@ function Programs() {
             <div className="advocacy  program">
 
               <div className="care-img">
-        <img src="https://public.files.download.flockmail.com/10828339/2641426737927168_1" alt="" />
+        <img src="https://public.files.download.flockmail.com/10828339/2641625741026304_1" alt="" />
       </div>
 
               <div className="advocacy-intro program-intro">

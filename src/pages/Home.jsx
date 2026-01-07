@@ -44,7 +44,7 @@ function Home() {
       <div className="priority-grid">
         <div className="priority-card">
           <div className="priority-img">
-            <img src="https://public.files.download.flockmail.com/10828339/2641426737927168_1" alt="" />
+            <img src="/images/gallery2.jpg" alt="" />
 
           </div>
           <div className="priority-info">
@@ -130,16 +130,16 @@ function Home() {
     </section>
     <section id="gallery">
       <div className="gallery-grid">
-        <div className="gallery-img"><img src="https://images.unsplash.com/photo-1740572497450-4f4f2d3be984?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGhvdG9zJTIwb2YlMjBhZnJpY2FuJTIwcGVvcGxlJTIwd2l0aCUyMGRpc2FiaWxpdGllc3xlbnwwfHwwfHx8MA%3D%3D" alt="" /></div>
+        <div className="gallery-img"><img src="/images/gallery8.jpg" alt="" /></div>
 
-        <div className="gallery-img"><img src="https://plus.unsplash.com/premium_photo-1669592559882-10977f5eff31?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGhvdG9zJTIwb2YlMjBhZnJpY2FuJTIwcGVvcGxlJTIwd2l0aCUyMGRpc2FiaWxpdGllc3xlbnwwfHwwfHx8MA%3D%3D" alt="" /></div>
+        <div className="gallery-img"><img src="/images/gallery10.jpg" alt="" /></div>
 
-        <div className="gallery-img"><img src="https://plus.unsplash.com/premium_photo-1670513672760-c6efd531da1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHBob3RvcyUyMG9mJTIwYWZyaWNhbiUyMHBlb3BsZSUyMHdpdGglMjBkaXNhYmlsaXRpZXN8ZW58MHx8MHx8fDA%3D" alt="" /></div>
+        <div className="gallery-img"><img src="/images/gallery3.jpg" alt="" /></div>
 
-        <div className="gallery-img"><img src="https://media.istockphoto.com/id/2212587946/photo/multiethnic-youth-group-collaborating-in-a-coworking-space.webp?a=1&b=1&s=612x612&w=0&k=20&c=JUe0Qf2I0JNFVCex_reUJB7ciYaYgwO5D36EQfQqHO8=" alt="" /></div>
+        <div className="gallery-img"><img src="/images/gallery9.jpg" alt="" /></div>
 
 
-        <div className="gallery-img"><img src="https://media.istockphoto.com/id/1345489100/photo/portrait-of-a-young-woman-with-special-needs.webp?a=1&b=1&s=612x612&w=0&k=20&c=bG_8rU8CfSAmwAmshJDmgixLRX59oDP2LHqohsNzk6k=" alt="" />
+        <div className="gallery-img"><img src="/images/gallery7.jpg" alt="" />
         
         </div>
               </div>
@@ -250,21 +250,21 @@ function Home() {
       <div className="team-grid">
         <div className="team-card">
           <div className="team-img">
-          <img src="https://media.istockphoto.com/id/2099408907/photo/smiling-young-businessman-standing-with-his-arms-crossed-against-an-office-wall.webp?a=1&b=1&s=612x612&w=0&k=20&c=N0rshqVGbuvJ6zFWKLzkwbulYEqqx1mtWzu_eSSOQXE=" alt="" />
+          <img src="/images/founder.jpg" alt="" />
         </div>
          <div className="team-info">
-            <h4 className="name">Mr. Asogwa</h4>
+            <h4 className="name">Joseph Michael</h4>
             <p>Our Founder</p>
           </div>
 
         </div>
                 <div className="team-card">
           <div className="team-img">
-          <img src="https://media.istockphoto.com/id/2099408907/photo/smiling-young-businessman-standing-with-his-arms-crossed-against-an-office-wall.webp?a=1&b=1&s=612x612&w=0&k=20&c=N0rshqVGbuvJ6zFWKLzkwbulYEqqx1mtWzu_eSSOQXE=" alt="" />
+          <img src="/images/secretary.jpg" alt="" />
         </div>
          <div className="team-info">
-            <h4 className="name">Mr. Asogwa</h4>
-            <p>Our Founder</p>
+            <h4 className="name">Uko Brown</h4>
+            <p>Secretary</p>
           </div>
 
         </div>
@@ -272,21 +272,21 @@ function Home() {
 
         <div className="team-card">
           <div className="team-img">
-          <img src="https://media.istockphoto.com/id/1194669537/photo/handsome-young-african-man-in-formalwear.webp?a=1&b=1&s=612x612&w=0&k=20&c=bFZhncLEnBmq5kFRCt1d248C-PW6T0EKP5xPKsB8Mng=" alt="" />
+          <img src="/images/senior-physiotherapist.jpg" alt="" />
         </div>
          <div className="team-info">
-            <h4 className="name">Mr. Asogwa</h4>
-            <p>Our Founder</p>
+            <h4 className="name">Mrs. Helen Peters</h4>
+            <p>Senior Physiotherapist</p>
           </div>
 
         </div>
         <div className="team-card">
           <div className="team-img">
-          <img src="https://media.istockphoto.com/id/1488389611/photo/smile-leadership-and-portrait-of-black-man-confident-ceo-with-mockup-and-blurred-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=6T8W6FBlELrRnoD7K9ughJXeKIwoYN752_fnsb5vLS4=" alt="" />
+          <img src="/images/junior.jpg" alt="" />
         </div>
          <div className="team-info">
-            <h4 className="name">Mr. Asogwa</h4>
-            <p>Our Founder</p>
+            <h4 className="name">James Bassey</h4>
+            <p>Assistant Physiotherapist</p>
           </div>
 
         </div>
