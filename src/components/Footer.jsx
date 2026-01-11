@@ -44,14 +44,8 @@ function Footer() {
         <div className="footer-col">
           <h4>Contact</h4>
           <p>Email: info@imasgatefoundation.org</p>
-          <p>Phone: +234 XXX XXX XXXX</p>
+          <p>Phone: 0803 343 3010</p>
 
-          <div className="socials">
-            <a href="#"><FaFacebookF /></a>
-            <a href="#"><FaInstagram /></a>
-            <a href="#"><FaTwitter /></a>
-            <a href="#"><FaWhatsapp /></a>
-          </div>
         </div>
       </div>
 

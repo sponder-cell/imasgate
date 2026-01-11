@@ -265,7 +265,7 @@ function Home() {
     <section id="team">
       <div className="team-intro">
         <h5 className='extra-hd'>Our Team</h5>
-        <h3>Meet Our Team Behind <br /> The Success Story</h3>
+        <h3>The Team Behind <br /> The Success Story</h3>
 
       </div>
 
