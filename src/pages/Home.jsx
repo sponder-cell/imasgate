@@ -14,7 +14,25 @@ import 'swiper/css/pagination';
 
 import 'swiper/css';
 
-
+const partners = [
+  {
+    name: "Brown Foundation",
+    logo: "https://www.brownfoundation.org/wp-content/uploads/2025/03/BF-Logo-2025-White.svg?t=1767910645",
+    variant: "dark",
+  },
+  {
+    name: "Access Bank",
+    logo: "https://www.accessbankplc.com/Content/images/access-lg-logo.png",
+  },
+  {
+    name: "Duke & Duchess College",
+    logo: "https://dukeandduchesscollege.com.ng/wp-content/uploads/2022/02/Logo-300x213.png",
+  },
+  {
+    name: "Coca cola",
+    logo: "https://www.coca-colacompany.com/content/dam/company/us/en/homepage/homepage-images/icons/the-coca-cola-company-logo.svg",
+  },
+];
 
 
 
@@ -154,7 +172,7 @@ function Home() {
       <div className="testimonial-intro">
         <h5 className="extra-hd">Testimonials</h5>
         <h3>Real Stories From <br />Real People</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor facere dolorum consequuntur. Labore officia quo rem molestiae repudiandae sequi maiores ex reprehenderit quis iste? Nemo voluptatibus delectus iure necessitatibus mollitia.</p>
+        <p>Every story shared here represents a life touched, a burden lifted, and hope restored. These testimonials are voices of individuals and families who have experienced care, support, and inclusion through Imasgate Foundation. Their words remind us why compassion matters and why standing together can change lives.</p>
       </div>
 
       <div className="testimonial-carousel">
@@ -166,15 +184,15 @@ function Home() {
 
           </div>
           <div className="testimonial-content">
-            <p>Grace, a single mother of two, joined our women empowerment program in 2023. With the training and resources she received, she now runs a small business that supports her family and helps other women in her community do the same.</p>
+            <p>The Support I received Transformed My Life.</p>
           </div>
           <div className="testimonial-profile">
             <div className="headshot">
-              <img src="boy.jpg" alt="" />
+              <img src="https://public.files.download.flockmail.com/10828339/2641676385149952_1" alt="" />
             </div>
             <div className="name">
-              <h4>Mr.Ayobami</h4>
-              <p>Assistant Manager</p>
+              <h4>Mary Johnson</h4>
+              <p>Empowered Individual</p>
             </div>
           </div>
         </div>
@@ -184,15 +202,15 @@ function Home() {
 
           </div>
           <div className="testimonial-content">
-            <p>Grace, a single mother of two, joined our women empowerment program in 2023. With the training and resources she received, she now runs a small business that supports her family and helps other women in her community do the same.</p>
+            <p>The Organisation Truly Cares About Us.</p>
           </div>
           <div className="testimonial-profile">
             <div className="headshot">
-              <img src="boy.jpg" alt="" />
+              <img src="https://public.files.download.flockmail.com/10828339/2641678648873984_1" alt="" />
             </div>
             <div className="name">
-              <h4>Mr.Ayobami</h4>
-              <p>Assistant Manager</p>
+              <h4>Brown Uko</h4>
+              <p>Family Member</p>
             </div>
           </div>
         </div>
@@ -202,15 +220,15 @@ function Home() {
 
           </div>
           <div className="testimonial-content">
-            <p>Grace, a single mother of two, joined our women empowerment program in 2023. With the training and resources she received, she now runs a small business that supports her family and helps other women in her community do the same.</p>
+            <p>The Workshop Transformed MY life.</p>
           </div>
           <div className="testimonial-profile">
             <div className="headshot">
-              <img src="boy.jpg" alt="" />
+              <img src="https://public.files.download.flockmail.com/10828339/2641682837038080_1" alt="" />
             </div>
             <div className="name">
-              <h4>Mr.Ayobami</h4>
-              <p>Assistant Manager</p>
+              <h4>Elizabeth Adaobi</h4>
+              <p>Community Advocate</p>
             </div>
           </div>
         </div>
@@ -220,14 +238,14 @@ function Home() {
 
           </div>
           <div className="testimonial-content">
-            <p>Grace, a single mother of two, joined our women empowerment program in 2023. With the training and resources she received, she now runs a small business that supports her family and helps other women in her community do the same.</p>
+            <p>I learned So Much Through Their Workshop.</p>
           </div>
           <div className="testimonial-profile">
             <div className="headshot">
-              <img src="boy.jpg" alt="" />
+              <img src="https://public.files.download.flockmail.com/10828339/2641691153142784_1" alt="" />
             </div>
             <div className="name">
-              <h4>Mr.Ayobami</h4>
+              <h4> John Akah</h4>
               <p>Assistant Manager</p>
             </div>
           </div>
@@ -250,7 +268,7 @@ function Home() {
       <div className="team-grid">
         <div className="team-card">
           <div className="team-img">
-          <img src="/images/founder.jpg" alt="" />
+          <img src="/images/founder2.jpg" alt="" />
         </div>
          <div className="team-info">
             <h4 className="name">Joseph Michael</h4>
@@ -290,19 +308,75 @@ function Home() {
           </div>
 
         </div>
+                        <div className="team-card">
+          <div className="team-img">
+          <img src="/images/lady2.jpg" alt="" />
+        </div>
+         <div className="team-info">
+            <h4 className="name">Mrs. Bose Isaac</h4>
+            <p>Head of Physiotherapy and Caring unit</p>
+          </div>
+
+        </div>
+
+                        <div className="team-card">
+          <div className="team-img">
+          <img src="/images/project.jpg" alt="" />
+        </div>
+         <div className="team-info">
+            <h4 className="name">Mary Uto</h4>
+            <p>Project Manager</p>
+          </div>
+
+        </div>
+
+
+
 
 
       </div>
     </section>
+
+ <section className="partners">
+  <h5 className='extra-hd'>Our Partners</h5>
+      <h3>United for Dignity & Hope</h3>
+      <p className="partners-intro">
+        We are proud to work alongside organizations and individuals who share
+        our commitment to inclusion, dignity, and positive impact.
+      </p>
+
+      <div className="partners-grid">
+        <div className="partners-card brown">
+          <img src="https://www.brownfoundation.org/wp-content/uploads/2025/03/BF-Logo-2025-White.svg?t=1767910645" alt="" />
+        </div>
+
+        <div className="partners-card">
+          <img src="https://www.accessbankplc.com/Content/images/access-lg-logo.png" alt="" />
+        </div>
+        <div className="partners-card duke">
+          <img src="https://dukeandduchesscollege.com.ng/wp-content/uploads/2022/02/Logo-300x213.png" alt="" />
+        </div>
+        <div className="partners-card">
+          <img src="https://www.coca-colacompany.com/content/dam/company/us/en/homepage/homepage-images/icons/the-coca-cola-company-logo.svg" alt="" />
+        </div>
+
+      </div>
+    </section>
+
         <section id="get-involved">
       <div className="invole-intro">
-        <h5 className='extra-hd'>Get Involved</h5>
+        <h5 className='extra-hd'>Donate</h5>
         <h3>Join the Movement for Change</h3>
         <p>At Imasgate Foundation, we believe that lasting change begins with people who care — people like you. Your time, skills, and support can make a real difference in the lives of those who need it most.</p>
       </div>
 
       <div className="involve-buttons">
-        <button className="volunteer"> <Link to="./Volunteer">Become A Volunteer</Link></button>
+      <button className="donates">
+      Donate
+      <span className="arrow-div">
+        <FaArrowRight className="arrow" />
+      </span>
+    </button>     
 
       </div>
     </section>
@@ -319,17 +393,17 @@ function Home() {
             <div className="bank-name info">
 
               <h5>Bank Name</h5>
-              <h4>Access Bank</h4>
+              <h4>GTB Bank</h4>
             </div>
 
             <div className="account-name info">
               <h5>Account Name</h5>
-              <h4>Chukwuwetalu Prayer Chibuike</h4>
+              <h4>Imasgate Foundation</h4>
             </div>
 
             <div className="account-number info">
               <h5>Account Number</h5>
-              <h4>1315669058</h4>
+              <h4>0775840307</h4>
             </div>
           </div>
         </div>
@@ -350,7 +424,7 @@ function Home() {
           </div>
           <div className="contact-info">
             <i>Address</i>
-            <p>31 Kokumo St, Lambe, Ajuwon/Akute 112107, Ogun State</p>
+            <p>31 Kokumo St, Lambe-Akute 112107, Ogun State</p>
           </div>
         </div>
         <div className="contact">
@@ -359,7 +433,7 @@ function Home() {
           </div>
           <div className="contact-info">
             <i>E-mail</i>
-            <p>chukwuwetaluprayet@gmail.com</p>
+            <p>info@imasgatefoundation.org</p>
           </div>
         </div>
 

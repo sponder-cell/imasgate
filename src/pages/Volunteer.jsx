@@ -100,7 +100,7 @@ function Volunteer() {
             </div>
           <div className="contact-info">
             <i>Address</i>
-            <p>31 Kokumo St, Lambe, Ajuwon/Akute 112107, Ogun State</p>
+            <p>31 Kokumo St, Lambe-Akute 112107, Ogun State</p>
           </div>
             </div>
 
@@ -110,7 +110,7 @@ function Volunteer() {
             </div>
           <div className="contact-info">
             <i>E-mail</i>
-            <p>chukwuwetaluprayet@gmail.com</p>
+            <p>info@imasgatefoundation.org</p>
           </div>
             </div>
           </div>
