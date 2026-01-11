@@ -130,10 +130,10 @@ function Home() {
         </div>
 
       <div className="about-text">
-        <p>Imasgate Foundation is a nonprofit organization dedicated to supporting persons living with disabilities and the families who care for them. We provide care, skills, advocacy, and encouragement so no one is left invisible or alone. <br />
-        <br />
-
-        We believe disability is not the problem — neglect and exclusion are. That’s why we focus on practical support that restores dignity, builds confidence, and creates real opportunities.</p>
+        <p>The Imasgate Foundation is a commendable organization dedicated to supporting persons living with disabilities in Nigeria and Kenya. By focusing on empowerment, advocacy, and inclusion, the foundation aims to improve the quality of life and opportunities available to individuals with disabilities. It provides essential resources such as vocational training, educational support, and access to healthcare services, helping to bridge the gap between ability and opportunity. 
+          <br />
+          <br />
+          In carrying out its work, the foundation operates with transparency and accountability, ensuring that resources and support are responsibly managed for maximum impact. Additionally, the foundation actively campaigns for policy changes and positive societal attitudes that foster a more inclusive and accommodating environment for all. Through its initiatives, the Imasgate Foundation plays a crucial role in promoting social equity and ensuring that individuals with disabilities can lead fulfilling and independent lives.</p>
  
 
 

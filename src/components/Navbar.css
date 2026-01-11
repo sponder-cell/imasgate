@@ -1,8 +1,8 @@
 
 .logo {
- width:70px;
- line-height: 80px;
- margin-left: 20px;
+ width:90px;
+ /* line-height: 80px; */
+ margin-left: 0px;
 }
 
 .navbar{
@@ -14,7 +14,7 @@
 }
 .nav-links{
     float: right;
-    margin-right:  200px;
+    margin-right:  150px;
 }
 .nav-links li{
     display: inline-block;
@@ -153,6 +153,8 @@ nav ul li a:hover{
  .nav-links.responsive{
      transform: translateY(0);
  }
-  
+  .logo{
+    width:100px;
+  }
 }
   

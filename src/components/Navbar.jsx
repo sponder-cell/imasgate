@@ -23,7 +23,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <Link to="/" ><img className="logo" src="https://public.files.download.flockmail.com/10828339/2641628337300480_1" alt="" /></Link>
+      <Link to="/" ><img className="logo" src="logo.png" alt="" /></Link>
 
       <ul ref={navRef} className="nav-links">
         <li><Link onClick={closeNav} to="/">Home</Link></li>
