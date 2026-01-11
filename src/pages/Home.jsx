@@ -134,6 +134,10 @@ function Home() {
         <br />
 
         We believe disability is not the problem — neglect and exclusion are. That’s why we focus on practical support that restores dignity, builds confidence, and creates real opportunities.</p>
+ 
+
+
+
       </div>
 
       </div>
@@ -324,7 +328,7 @@ function Home() {
           <img src="/images/project.jpg" alt="" />
         </div>
          <div className="team-info">
-            <h4 className="name">Mary Uto</h4>
+            <h4 className="name">Mary Udoh</h4>
             <p>Project Manager</p>
           </div>
 
@@ -365,7 +369,6 @@ function Home() {
 
         <section id="get-involved">
       <div className="invole-intro">
-        <h5 className='extra-hd'>Donate</h5>
         <h3>Join the Movement for Change</h3>
         <p>At Imasgate Foundation, we believe that lasting change begins with people who care — people like you. Your time, skills, and support can make a real difference in the lives of those who need it most.</p>
       </div>

@@ -39,13 +39,13 @@ function Navbar() {
 
 
      </ul>
-      {/* <button className="donate">
+      <button className="donate">
       Donate
       <span className="arrow-div">
         <FaArrowRight className="arrow" />
       </span>
     </button>     
- */}
+
 
     < CiMenuFries onClick={showNav} className="menu" />
     </nav>
